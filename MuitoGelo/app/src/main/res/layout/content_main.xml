@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.thiago.muitogelo.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="@drawable/predios"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:alpha=".9">
+
+    <ImageView
+        android:layout_width="384dp"
+        android:layout_height="204dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo2"
+        />
+    
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="83dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Cadastro"
+        android:layout_gravity="center"
+        android:background="@drawable/button2"
+        android:elevation="@dimen/activity_vertical_margin"
+        android:onClick="abreCadastro"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textColor="@color/roxoEscuro"
+        android:textSize="14dp"
+        android:id="@+id/btCadastro"/>
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:layout_gravity="center"
+        android:layout_width="300dp">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Saiba Mais"
+            android:background="@drawable/button"
+            android:textColor="@color/branco"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:onClick="abreSaibaMais"
+            android:id="@+id/btSaibaMais"/>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="FAQ"
+            android:background="@drawable/button"
+            android:textColor="@color/branco"
+            android:layout_weight="1"
+            android:onClick="abreFAQ"
+            android:layout_gravity="center"
+            android:id="@+id/btFAQ"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/linear_background.xml",
+        "source": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/src/main/res/drawable-ldpi/linear_background.xml"
+    },
+    {
+        "merged": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/button2.xml",
+        "source": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/src/main/res/drawable-ldpi/button2.xml"
+    },
+    {
+        "merged": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/text_field.xml",
+        "source": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/src/main/res/drawable-ldpi/text_field.xml"
+    },
+    {
+        "merged": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/button.xml",
+        "source": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/src/main/res/drawable-ldpi/button.xml"
+    }
+]

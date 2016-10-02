@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cadastroImovel2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha=".9"
+    android:background="@drawable/predios"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.thiago.muitogelo.CadastroActivity"
+    tools:showIn="@layout/cadastro_assist">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="137dp"
+        android:layout_gravity="center"
+        android:src="@drawable/cadastro1" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="310dp">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/linear_background"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <AutoCompleteTextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_field"
+                android:elevation="5dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:text="Nome"
+                android:textColor="@color/roxoEscuro" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/ownerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_field"
+                android:elevation="5dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:text="Nome Do Proprietário"
+                android:textColor="@color/roxoEscuro" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/ownerPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_field"
+                android:elevation="5dp"
+                android:inputType="phone"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:text="Telefone do Proprietário"
+                android:textColor="@color/roxoEscuro" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/ownerAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_field"
+                android:elevation="5dp"
+                android:inputType="text"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:text="Endereço do Proprietário"
+                android:textColor="@color/roxoEscuro" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/repName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_field"
+                android:elevation="5dp"
+                android:inputType="text"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:text="Endereço do Proprietário"
+                android:textColor="@color/roxoEscuro" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/repPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_field"
+                android:elevation="5dp"
+                android:inputType="text"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:text="Endereço do Proprietário"
+                android:textColor="@color/roxoEscuro" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/repAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_field"
+                android:elevation="5dp"
+                android:inputType="text"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:text="Endereço do Proprietário"
+                android:textColor="@color/roxoEscuro" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/syndName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_field"
+                android:elevation="5dp"
+                android:inputType="text"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:text="Nome do Síndico"
+                android:textColor="@color/roxoEscuro" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/syndPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_field"
+                android:elevation="5dp"
+                android:inputType="text"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:text="Telefone do Síndico"
+                android:textColor="@color/roxoEscuro" />
+			
+			<Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+  
+			    <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/text_field"
+                android:elevation="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="Escritura Disponível?"
+                    android:textColor="@color/roxoEscuro"
+                    android:textSize="18dp" />
+
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <RadioButton
+                        android:id="@+id/escrituraSim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Sim"
+                        android:textColor="@color/roxoEscuro" />
+
+                    <Space
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent" />
+
+                    <RadioButton
+                        android:id="@+id/escrituraNao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Não"
+                        android:textColor="@color/roxoEscuro" />
+                </RadioGroup>
+            </LinearLayout>
+                 
+				 <Space
+					android:layout_width="40dp"
+                    android:layout_height="match_parent" />
+				
+				<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/text_field"
+                android:elevation="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="XPTO Disponível?"
+                    android:textColor="@color/roxoEscuro"
+                    android:textSize="18dp" />
+
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <RadioButton
+                        android:id="@+id/xptoSim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Sim"
+                        android:textColor="@color/roxoEscuro" />
+
+                    <Space
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent" />
+
+                    <RadioButton
+                        android:id="@+id/xptoNao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Não"
+                        android:textColor="@color/roxoEscuro" />
+                </RadioGroup>
+            </LinearLayout>
+                 
+  
+
+		</LinearLayout>
+    </ScrollView>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button2"
+            android:text="Próximo"
+            android:textColor="@color/roxoEscuro"
+            android:alpha=".9"
+            android:id="@+id/btConcluidoCadastro"
+            android:onClick="insertSiteL"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
