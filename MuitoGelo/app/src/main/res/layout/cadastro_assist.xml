@@ -16,6 +16,5 @@
     </android.support.design.widget.AppBarLayout>
 
     <include layout="@layout/activity_cadastro" />
-    <include layout="@layout/activity_cadastro_imovel1"></include>
 
 </android.support.design.widget.CoordinatorLayout>
