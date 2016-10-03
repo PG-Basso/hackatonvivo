@@ -15,7 +15,8 @@
     android:weightSum="1"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.thiago.muitogelo.CadastroActivity"
-    tools:showIn="@layout/cadastro_assist">
+    tools:showIn="@layout/cadastro_assist"
+    >
 
     <ImageView
         android:layout_width="300dp"
@@ -25,17 +26,17 @@
 
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="330dp">
+        android:layout_width="300dp"
+        android:layout_height="330dp"
+        android:layout_gravity="center">
 
         <LinearLayout
             android:layout_width="300dp"
             android:layout_height="match_parent"
-            android:layout_gravity="center"
             android:background="@drawable/linear_background"
             android:orientation="vertical"
             android:padding="10dp">
-
+            
             <AutoCompleteTextView
                 android:id="@+id/nomeCadastro"
                 android:layout_width="match_parent"

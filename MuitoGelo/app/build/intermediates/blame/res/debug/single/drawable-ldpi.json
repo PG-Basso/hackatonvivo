@@ -1,82 +1,42 @@
 [
     {
-        "merged": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/feliz.png",
-        "source": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/src/main/res/drawable-ldpi/feliz.png"
+        "merged": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/feliz.png",
+        "source": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/src/main/res/drawable-ldpi/feliz.png"
     },
     {
-        "merged": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/normal.png",
-        "source": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/src/main/res/drawable-ldpi/normal.png"
+        "merged": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/quebrado.png",
+        "source": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/src/main/res/drawable-ldpi/quebrado.png"
     },
     {
-        "merged": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/quebrado.png",
-        "source": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/src/main/res/drawable-ldpi/quebrado.png"
+        "merged": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/logo.png",
+        "source": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/src/main/res/drawable-ldpi/logo.png"
     },
     {
-        "merged": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/predios.png",
-        "source": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/src/main/res/drawable-ldpi/predios.png"
+        "merged": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/logo3.png",
+        "source": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/src/main/res/drawable-ldpi/logo3.png"
     },
     {
-        "merged": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/quebrado.png",
-        "source": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/src/main/res/drawable-ldpi/quebrado.png"
+        "merged": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/duvida.png",
+        "source": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/src/main/res/drawable-ldpi/duvida.png"
     },
     {
-        "merged": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/logo3.png",
-        "source": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/src/main/res/drawable-ldpi/logo3.png"
+        "merged": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/triste.png",
+        "source": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/src/main/res/drawable-ldpi/triste.png"
     },
     {
-        "merged": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/duvida.png",
-        "source": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/src/main/res/drawable-ldpi/duvida.png"
+        "merged": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/normal.png",
+        "source": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/src/main/res/drawable-ldpi/normal.png"
     },
     {
-        "merged": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/logo.png",
-        "source": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/src/main/res/drawable-ldpi/logo.png"
+        "merged": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/logo2.png",
+        "source": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/src/main/res/drawable-ldpi/logo2.png"
     },
     {
-        "merged": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/cadastro1.png",
-        "source": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/src/main/res/drawable-ldpi/cadastro1.png"
+        "merged": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/predios.png",
+        "source": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/src/main/res/drawable-ldpi/predios.png"
     },
     {
-        "merged": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/cadastro1.png",
-        "source": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/src/main/res/drawable-ldpi/cadastro1.png"
-    },
-    {
-        "merged": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/logo3.png",
-        "source": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/src/main/res/drawable-ldpi/logo3.png"
-    },
-    {
-        "merged": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/feliz.png",
-        "source": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/src/main/res/drawable-ldpi/feliz.png"
-    },
-    {
-        "merged": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/logo2.png",
-        "source": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/src/main/res/drawable-ldpi/logo2.png"
-    },
-    {
-        "merged": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/duvida.png",
-        "source": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/src/main/res/drawable-ldpi/duvida.png"
-    },
-    {
-        "merged": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/triste.png",
-        "source": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/src/main/res/drawable-ldpi/triste.png"
-    },
-    {
-        "merged": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/predios.png",
-        "source": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/src/main/res/drawable-ldpi/predios.png"
-    },
-    {
-        "merged": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/normal.png",
-        "source": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/src/main/res/drawable-ldpi/normal.png"
-    },
-    {
-        "merged": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/triste.png",
-        "source": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/src/main/res/drawable-ldpi/triste.png"
-    },
-    {
-        "merged": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/logo.png",
-        "source": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/src/main/res/drawable-ldpi/logo.png"
-    },
-    {
-        "merged": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/logo2.png",
-        "source": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/src/main/res/drawable-ldpi/logo2.png"
+        "merged": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-ldpi/cadastro1.png",
+        "source": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/src/main/res/drawable-ldpi/cadastro1.png"
     }
 ]

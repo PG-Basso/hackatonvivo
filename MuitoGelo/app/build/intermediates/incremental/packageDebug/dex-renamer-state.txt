@@ -1,4 +1,7 @@
-#Sun Oct 02 20:29:59 BRT 2016
-base.0=/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Mon Oct 03 10:09:55 BRT 2016
+base.0=/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ac414e39715458040c128738235f0d8ff210f748
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.1=/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bebb062813709c72604271125a9149055fcdfcda/classes.dex
+base.1=/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bebb062813709c72604271125a9149055fcdfcda
+file.0=/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ac414e39715458040c128738235f0d8ff210f748/classes.dex

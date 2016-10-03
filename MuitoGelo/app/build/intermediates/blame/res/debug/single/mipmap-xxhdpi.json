@@ -1,10 +1,6 @@
 [
     {
-        "merged": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
-        "source": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
-        "source": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     }
 ]
