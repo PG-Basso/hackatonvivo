@@ -6,33 +6,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:alpha=".9"
-    android:background="@drawable/predios"
     android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:weightSum="1"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.thiago.muitogelo.CadastroActivity"
-    tools:showIn="@layout/cadastro_assist">
+    >
 
-    <ImageView
-        android:layout_width="300dp"
-        android:layout_height="137dp"
-        android:layout_gravity="center"
-        android:src="@drawable/cadastro1" />
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
 
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="?attr/colorPrimary"
+            android:backgroundTint="@color/roxoVivo"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="Dr. Antena" />
+
+    </android.support.design.widget.AppBarLayout>
+    
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="310dp">
+        android:layout_width="300dp"
+        android:layout_height="310dp"
+        android:layout_gravity="center">
 
         <LinearLayout
             android:layout_width="300dp"
             android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:background="@drawable/linear_background"
             android:orientation="vertical"
             android:padding="10dp">
 
@@ -125,7 +131,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/text_field"
                 android:elevation="5dp"
-                android:inputType="text"
+                android:inputType="number"
                 android:paddingBottom="10dp"
                 android:paddingLeft="20dp"
                 android:paddingTop="10dp"
@@ -140,7 +146,7 @@
                 android:id="@+id/latitude"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/text_field"
+                android:background="@color/branco"
                 android:elevation="5dp"
                 android:inputType="text"
                 android:paddingBottom="10dp"
@@ -157,14 +163,14 @@
                 android:id="@+id/longitude"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/text_field"
+                android:background="@color/branco"
                 android:elevation="5dp"
                 android:inputType="text"
                 android:paddingBottom="10dp"
                 android:paddingLeft="20dp"
                 android:paddingTop="10dp"
-                android:text="CEP"
-                android:textColor="@color/roxoEscuro" />
+                android:textColor="@color/roxoEscuro"
+                android:clickable="false" />
 
             <Space
                 android:layout_width="match_parent"
@@ -174,23 +180,23 @@
                 android:id="@+id/altitude"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/text_field"
+                android:background="@color/branco"
                 android:elevation="5dp"
                 android:inputType="text"
                 android:paddingBottom="10dp"
                 android:paddingLeft="20dp"
                 android:paddingTop="10dp"
-                android:text="CEP"
-                android:textColor="@color/roxoEscuro" />
+                android:textColor="@color/roxoEscuro"
+                android:clickable="false" />
         </LinearLayout>
     </ScrollView>
 
     <Space
         android:layout_width="wrap_content"
-        android:layout_height="10dp" />
+        android:layout_height="40dp" />
 
     <LinearLayout
-        android:layout_width="300dp"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:weightSum="2"
         android:layout_gravity="center">
@@ -202,7 +208,6 @@
             android:background="@drawable/button2"
             android:text="Voltar"
             android:textColor="@color/roxoEscuro"
-            android:alpha=".9"
             android:id="@+id/btVoltarCadastro"
             android:onClick="voltar"
             android:layout_weight="1"/>
@@ -218,7 +223,6 @@
             android:background="@drawable/button2"
             android:text="Próximo"
             android:textColor="@color/roxoEscuro"
-            android:alpha=".9"
             android:id="@+id/btConcluidoCadastro"
             android:onClick="insertSite"
             android:layout_weight="1"/>

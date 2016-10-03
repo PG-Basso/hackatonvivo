@@ -4,6 +4,10 @@
         "source": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/src/main/res/drawable-mdpi/logo3.png"
     },
     {
+        "merged": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-mdpi/predios_2.png",
+        "source": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/src/main/res/drawable-mdpi/predios_2.png"
+    },
+    {
         "merged": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-mdpi/logo.png",
         "source": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/src/main/res/drawable-mdpi/logo.png"
     },
@@ -30,6 +34,10 @@
     {
         "merged": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-mdpi/logo2.png",
         "source": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/src/main/res/drawable-mdpi/logo2.png"
+    },
+    {
+        "merged": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-mdpi/predio.png",
+        "source": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/src/main/res/drawable-mdpi/predio.png"
     },
     {
         "merged": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-mdpi/duvida.png",

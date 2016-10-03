@@ -4,40 +4,33 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="119562174189885"
+    timestamp="129625320504476"
     token="-6485350227571228057"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="779" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="409" />
     <task
         name="verifier"
-        duration="0" />
+        duration="40" />
 
     <artifact
-        location="/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="119230552882918"
+        timestamp="129625320504476"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="119562174189885"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
     </build>
 
 </instant-run>

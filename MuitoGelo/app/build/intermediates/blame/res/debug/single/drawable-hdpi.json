@@ -28,12 +28,20 @@
         "source": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/src/main/res/drawable-hdpi/feliz.png"
     },
     {
+        "merged": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-hdpi/predio.png",
+        "source": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/src/main/res/drawable-hdpi/predio.png"
+    },
+    {
         "merged": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-hdpi/quebrado.png",
         "source": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/src/main/res/drawable-hdpi/quebrado.png"
     },
     {
         "merged": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-hdpi/triste.png",
         "source": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/src/main/res/drawable-hdpi/triste.png"
+    },
+    {
+        "merged": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-hdpi/predios_2.png",
+        "source": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/src/main/res/drawable-hdpi/predios_2.png"
     },
     {
         "merged": "/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-hdpi/normal.png",

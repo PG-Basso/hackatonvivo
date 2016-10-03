@@ -1,4 +1,4 @@
-#Mon Oct 03 10:09:55 BRT 2016
+#Mon Oct 03 14:19:11 BRT 2016
 base.0=/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ac414e39715458040c128738235f0d8ff210f748
 renamed.1=classes2.dex
 renamed.0=classes.dex

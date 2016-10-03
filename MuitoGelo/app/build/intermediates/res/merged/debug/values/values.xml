@@ -29,7 +29,8 @@
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="cinzaAzulado">#2E3237</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="cinzaClaro">#777777</color>
+    <color name="colorAccent">#ff4081</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
@@ -76,6 +77,7 @@
     <color name="ripple_material_light">#1f000000</color>
     <color name="roxoClaro">#D39CE8</color>
     <color name="roxoEscuro">#82368c</color>
+    <color name="roxoVivo">#7E2595</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
