@@ -10,8 +10,7 @@
         android:theme="@style/AppTheme.NoActionBar">
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,7 +24,7 @@
         <activity android:name=".PrincipalActivity" />
         <activity android:name=".FAQActivity" />
         <activity android:name=".SaibaMaisActivity" />
-        <activity android:name=".PremiosActivity"></activity>
+        <activity android:name=".PremiosActivity"/>
     </application>
 
 </manifest>

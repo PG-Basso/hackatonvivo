@@ -2,5 +2,9 @@
     {
         "merged": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
         "source": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/src/main/res/menu/menu_main.xml"
     }
 ]

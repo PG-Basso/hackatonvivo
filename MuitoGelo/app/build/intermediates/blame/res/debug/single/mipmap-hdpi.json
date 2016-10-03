@@ -2,5 +2,9 @@
     {
         "merged": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
         "source": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     }
 ]

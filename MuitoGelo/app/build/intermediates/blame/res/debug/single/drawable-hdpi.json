@@ -12,16 +12,44 @@
         "source": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/src/main/res/drawable-hdpi/triste.png"
     },
     {
+        "merged": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-hdpi/duvida.png",
+        "source": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/src/main/res/drawable-hdpi/duvida.png"
+    },
+    {
+        "merged": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-hdpi/logo3.png",
+        "source": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/src/main/res/drawable-hdpi/logo3.png"
+    },
+    {
         "merged": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-hdpi/logo2.png",
         "source": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/src/main/res/drawable-hdpi/logo2.png"
+    },
+    {
+        "merged": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-hdpi/predios.png",
+        "source": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/src/main/res/drawable-hdpi/predios.png"
     },
     {
         "merged": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-hdpi/feliz.png",
         "source": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/src/main/res/drawable-hdpi/feliz.png"
     },
     {
+        "merged": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-hdpi/quebrado.png",
+        "source": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/src/main/res/drawable-hdpi/quebrado.png"
+    },
+    {
+        "merged": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-hdpi/feliz.png",
+        "source": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/src/main/res/drawable-hdpi/feliz.png"
+    },
+    {
         "merged": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-hdpi/duvida.png",
         "source": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/src/main/res/drawable-hdpi/duvida.png"
+    },
+    {
+        "merged": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-hdpi/triste.png",
+        "source": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/src/main/res/drawable-hdpi/triste.png"
+    },
+    {
+        "merged": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-hdpi/logo.png",
+        "source": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/src/main/res/drawable-hdpi/logo.png"
     },
     {
         "merged": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-hdpi/normal.png",
@@ -36,7 +64,19 @@
         "source": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/src/main/res/drawable-hdpi/logo3.png"
     },
     {
+        "merged": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-hdpi/normal.png",
+        "source": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/src/main/res/drawable-hdpi/normal.png"
+    },
+    {
+        "merged": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-hdpi/logo2.png",
+        "source": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/src/main/res/drawable-hdpi/logo2.png"
+    },
+    {
         "merged": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-hdpi/quebrado.png",
         "source": "/home/caio/Desktop/MuitoGeloMKII/MuitoGelo/app/src/main/res/drawable-hdpi/quebrado.png"
+    },
+    {
+        "merged": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/build/intermediates/res/merged/debug/drawable-hdpi/cadastro1.png",
+        "source": "/home/caio/Documents/hackaton/hackatonvivo/MuitoGelo/app/src/main/res/drawable-hdpi/cadastro1.png"
     }
 ]
