@@ -2,9 +2,11 @@
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#ff4081</color>
     <color name="branco">#FFFFFF</color>
     <color name="roxoEscuro">#82368c</color>
     <color name="roxoClaro">#D39CE8</color>
     <color name="cinzaAzulado">#2E3237</color>
+    <color name="roxoVivo">#7E2595</color>
+    <color name="cinzaClaro">#777777</color>
 </resources>
