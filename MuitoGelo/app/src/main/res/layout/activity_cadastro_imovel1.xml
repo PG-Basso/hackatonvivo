@@ -9,6 +9,7 @@
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.thiago.muitogelo.CadastroActivity"
+    android:weightSum="1"
     >
 
     <android.support.design.widget.AppBarLayout
@@ -32,15 +33,17 @@
         android:layout_height="40dp" />
 
     <ScrollView
-        android:layout_width="300dp"
-        android:layout_height="350dp"
-        android:layout_gravity="center">
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:layout_gravity="center"
+        android:layout_weight="1">
 
         <LinearLayout
             android:layout_width="300dp"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:padding="10dp">
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal">
 
             <AutoCompleteTextView
                 android:id="@+id/type"
@@ -80,7 +83,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/text_field"
                 android:elevation="5dp"
-                android:inputType="phone"
+                android:inputType="text"
                 android:paddingBottom="10dp"
                 android:paddingLeft="20dp"
                 android:paddingTop="10dp"
@@ -188,6 +191,7 @@
                 android:textColor="@color/roxoEscuro"
                 android:clickable="false" />
         </LinearLayout>
+
     </ScrollView>
 
     <Space
@@ -197,20 +201,19 @@
     <LinearLayout
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:weightSum="2"
-        android:layout_gravity="center"
-        android:padding="10dp">
-
+        android:weightSum="1"
+        android:layout_gravity="center">
 
         <Button
+            android:id="@+id/btConcluidoCadastro"
             android:layout_width="250dp"
             android:layout_height="40dp"
-            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:alpha=".9"
             android:background="@drawable/button2"
-            android:text="Próximo"
-            android:textColor="@color/roxoEscuro"
-            android:id="@+id/btConcluidoCadastro"
             android:onClick="insertSite"
-            android:layout_weight="2"/>
+            android:text="Próximo"
+            android:textColor="@color/roxoEscuro" />
     </LinearLayout>
+
 </LinearLayout>

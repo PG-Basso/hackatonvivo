@@ -32,7 +32,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="400dp">
+        android:layout_height="310dp"
+        android:layout_weight="1">
 
         <LinearLayout
             android:layout_width="300dp"
@@ -307,7 +308,7 @@
                 android:paddingBottom="10dp"
                 android:paddingLeft="20dp"
                 android:paddingTop="10dp"
-                android:text="Área Total"
+                android:hint="Área Total"
                 android:textColor="@color/roxoEscuro" />
 
             <Space
@@ -325,7 +326,7 @@
                 android:paddingBottom="10dp"
                 android:paddingLeft="20dp"
                 android:paddingTop="10dp"
-                android:text="Construção Existente"
+                android:hint="Construção Existente"
                 android:textColor="@color/roxoEscuro" />
 
             <Space
@@ -543,21 +544,25 @@
                 android:paddingBottom="10dp"
                 android:paddingLeft="20dp"
                 android:paddingTop="10dp"
-                android:text="Voltagem Disponível"
+                android:hint="Voltagem Disponível"
                 android:textColor="@color/roxoEscuro" />
+
+
 
         </LinearLayout>
     </ScrollView>
 
-    <Space
-        android:layout_width="wrap_content"
-        android:layout_height="20dp" />
+
 
     <LinearLayout
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:weightSum="2">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
 
         <Button
             android:id="@+id/btConcluidoCadastro"
@@ -569,5 +574,7 @@
             android:onClick="insertSiteP"
             android:text="Encerrar"
             android:textColor="@color/roxoEscuro" />
+
+
     </LinearLayout>
 </LinearLayout>

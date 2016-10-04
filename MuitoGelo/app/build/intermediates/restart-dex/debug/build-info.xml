@@ -4,29 +4,29 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="141694890908096"
+    timestamp="152379396079247"
     token="-6485350227571228057"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="135" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="23" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
     <artifact
         location="/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="141694890908096"
+        timestamp="152379396079247"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/outputs/apk/app-debug.apk"

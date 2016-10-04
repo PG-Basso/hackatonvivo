@@ -1,13 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_saiba_mais"
+    android:id="@+id/activity_principal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.thiago.muitogelo.SaibaMaisActivity">
+    android:backgroundTint="@color/cinzaClaro"
+    android:orientation="vertical"
+    tools:context="com.example.thiago.muitogelo.PrincipalActivity">
 
-</RelativeLayout>
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="?attr/colorPrimary"
+            android:backgroundTint="@color/roxoVivo"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="Dr. Antena" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saiba Mais"
+            android:textSize="55dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="10dp"
+                    android:text="O Dr. Antena é um aplicativo desenvolvido pela equipe casa das ovelhas com o auxílio da Vivo, é uma ferramenta feita para conectar o proprietário de terra ou algum espaço, que seja interessante para Vivo, com a própria, assim, ganhando uma quantia em dinheiro e ou pontos mensais (dependendo do contrato) para trocar por prêmios ou descontos na loja Vivo dentro do Dr. Antena. Se você deseja entrar em contato com a equipe de desenvolvimento, mande um e-mail para casa_ovelhas@gmail.com ou, se quiser entrar em contato com a Vivo, entre no site www.vivo.com.br e escolha uma opção de contato"
+                    android:textStyle="normal"
+                    android:textSize="20dp"
+                    android:textAlignment="center" />
+
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

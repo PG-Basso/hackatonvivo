@@ -14,15 +14,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        IdManager idm = new IdManager(this);
+        if (idm.getUserId() >= 1) {
+            Intent i = new Intent(this, PrincipalActivity.class);
+            startActivity(i);
+            finish();
+        }
     }
-    public void abreSaibaMais(View view) {
-        Intent intent = new Intent(this, SaibaMaisActivity.class);
-        startActivity(intent);
-    }
-    public void abreFAQ(View view) {
-        Intent intent = new Intent(this, FAQActivity.class);
-        startActivity(intent);
-    }
+
     public void abreCadastro(View view) {
         Intent intent = new Intent(this, CadastroActivity.class);
         startActivity(intent);

@@ -11,15 +11,33 @@ public class PrincipalActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_principal);
+
     }
 
     public void irCadastroImovel(View v) {
-        Intent i = new Intent(this, CadastroImovel1Activity.class);
+        IdManager idm = new IdManager(this);
+        Intent i;
+        if (idm.getSiteId() > idm.getSiteLId()) {
+            i = new Intent(this, CadastroImovel2Activity.class);
+        } else if (idm.getSiteLId() > idm.getSitePId()) {
+            i = new Intent(this, CadastroImovel3Activity.class);
+        } else {
+            i = new Intent(this, CadastroImovel1Activity.class);
+        }
         startActivity(i);
     }
 
     public void irPremios(View v) {
         Intent i = new Intent(this, PremiosActivity.class);
         startActivity(i);
+    }
+
+    public void abreSaibaMais(View view) {
+        Intent intent = new Intent(this, SaibaMaisActivity.class);
+        startActivity(intent);
+    }
+    public void abreFAQ(View view) {
+        Intent intent = new Intent(this, FAQActivity.class);
+        startActivity(intent);
     }
 }
