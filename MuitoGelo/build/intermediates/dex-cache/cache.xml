@@ -97,7 +97,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="7487ec40b3e0eb15ad3bf63759b64c7466f2e325">
+        sha1="74c845dfcb85c4486b3fec5934f7c113e7c76de0">
         <dex dex="/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ac414e39715458040c128738235f0d8ff210f748/classes.dex" />
     </item>
     <item
@@ -160,7 +160,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="147178837ff2a3391f4a1e4b4f488bb1f5f38e98">
+        sha1="f01cb2513aa6905a5d72c332a363305d4884522f">
         <dex dex="/Users/Thiago/Documents/hackatonvivo/MuitoGelo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bebb062813709c72604271125a9149055fcdfcda/classes.dex" />
     </item>
     <item

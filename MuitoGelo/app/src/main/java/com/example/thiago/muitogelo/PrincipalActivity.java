@@ -17,4 +17,9 @@ public class PrincipalActivity extends AppCompatActivity {
         Intent i = new Intent(this, CadastroImovel1Activity.class);
         startActivity(i);
     }
+
+    public void irPremios(View v) {
+        Intent i = new Intent(this, PremiosActivity.class);
+        startActivity(i);
+    }
 }

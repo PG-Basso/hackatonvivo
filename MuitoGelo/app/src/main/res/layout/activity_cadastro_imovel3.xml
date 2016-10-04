@@ -5,33 +5,39 @@
     android:id="@+id/cadastroImovel3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:alpha=".9"
-    android:background="@drawable/predios"
     android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     android:weightSum="1"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.thiago.muitogelo.CadastroActivity"
-    tools:showIn="@layout/cadastro_assist">
+    tools:context="com.example.thiago.muitogelo.CadastroActivity">
 
-    <ImageView
-        android:layout_width="300dp"
-        android:layout_height="137dp"
-        android:layout_gravity="center"
-        android:src="@drawable/cadastro1" />
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
 
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="?attr/colorPrimary"
+            android:backgroundTint="@color/roxoVivo"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="Dr. Antena" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="310dp">
+        android:layout_height="400dp">
 
         <LinearLayout
             android:layout_width="300dp"
             android:layout_height="match_parent"
-            android:layout_gravity="center"
+            android:layout_gravity="center_horizontal"
             android:background="@drawable/linear_background"
             android:orientation="vertical"
             android:padding="10dp">
@@ -42,11 +48,11 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/text_field"
                 android:elevation="5dp"
+                android:hint="Número de Andares"
                 android:inputType="number"
-				android:paddingBottom="10dp"
+                android:paddingBottom="10dp"
                 android:paddingLeft="20dp"
                 android:paddingTop="10dp"
-                android:text="Número de Andares"
                 android:textColor="@color/roxoEscuro" />
 
             <Space
@@ -59,10 +65,10 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/text_field"
                 android:elevation="5dp"
+                android:hint="Avenida mais próxima"
                 android:paddingBottom="10dp"
                 android:paddingLeft="20dp"
                 android:paddingTop="10dp"
-                android:text="Avenida mais próxima"
                 android:textColor="@color/roxoEscuro" />
 
             <Space
@@ -114,10 +120,10 @@
                         android:textColor="@color/roxoEscuro" />
                 </RadioGroup>
             </LinearLayout>
-                 
-				 <Space
-					android:layout_width="40dp"
-                    android:layout_height="match_parent" />
+
+            <Space
+                android:layout_width="40dp"
+                android:layout_height="match_parent" />
 
             <Space
                 android:layout_width="match_parent"
@@ -129,18 +135,18 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/text_field"
                 android:elevation="5dp"
+                android:hint="Como é feito o acesso?"
                 android:inputType="text"
                 android:paddingBottom="10dp"
                 android:paddingLeft="20dp"
                 android:paddingTop="10dp"
-                android:text="Como é feito o acesso?"
                 android:textColor="@color/roxoEscuro" />
 
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="10dp" />
 
-			<LinearLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/text_field"
@@ -196,11 +202,11 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/text_field"
                 android:elevation="5dp"
+                android:hint="Voltagem Disponível"
                 android:inputType="text"
                 android:paddingBottom="10dp"
                 android:paddingLeft="20dp"
                 android:paddingTop="10dp"
-                android:text="Voltagem Disponível"
                 android:textColor="@color/roxoEscuro" />
 
             <Space
@@ -213,31 +219,35 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/text_field"
                 android:elevation="5dp"
+                android:hint="Ponto de Energia Mais Próximo"
                 android:inputType="text"
                 android:paddingBottom="10dp"
                 android:paddingLeft="20dp"
                 android:paddingTop="10dp"
-                android:text="Voltagem Disponível"
                 android:textColor="@color/roxoEscuro" />
-			
-			<Space
+
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="10dp" />
-				
-			<AutoCompleteTextView
+
+            <AutoCompleteTextView
                 android:id="@+id/powerSupplier"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/text_field"
                 android:elevation="5dp"
+                android:hint="Fornecedor de Energia"
                 android:inputType="text"
                 android:paddingBottom="10dp"
                 android:paddingLeft="20dp"
                 android:paddingTop="10dp"
-                android:text="Fornecedor de Energia"
-                android:textColor="@color/roxoEscuro" />	
-				
-				<LinearLayout
+                android:textColor="@color/roxoEscuro" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/text_field"
@@ -282,8 +292,12 @@
                         android:textColor="@color/roxoEscuro" />
                 </RadioGroup>
             </LinearLayout>
-			
-                 <AutoCompleteTextView
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <AutoCompleteTextView
                 android:id="@+id/totalArea"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -294,10 +308,14 @@
                 android:paddingLeft="20dp"
                 android:paddingTop="10dp"
                 android:text="Área Total"
-                android:textColor="@color/roxoEscuro" />	
-				
-				
-				<AutoCompleteTextView
+                android:textColor="@color/roxoEscuro" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <AutoCompleteTextView
                 android:id="@+id/existingConstruction"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -308,10 +326,14 @@
                 android:paddingLeft="20dp"
                 android:paddingTop="10dp"
                 android:text="Construção Existente"
-                android:textColor="@color/roxoEscuro" />	
-				
-				
-				<LinearLayout
+                android:textColor="@color/roxoEscuro" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/text_field"
@@ -356,8 +378,12 @@
                         android:textColor="@color/roxoEscuro" />
                 </RadioGroup>
             </LinearLayout>
-			
-			<LinearLayout
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/text_field"
@@ -402,8 +428,12 @@
                         android:textColor="@color/roxoEscuro" />
                 </RadioGroup>
             </LinearLayout>
-			
-			<LinearLayout
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/text_field"
@@ -448,8 +478,12 @@
                         android:textColor="@color/roxoEscuro" />
                 </RadioGroup>
             </LinearLayout>
-			
-			<LinearLayout
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/text_field"
@@ -512,29 +546,28 @@
                 android:text="Voltagem Disponível"
                 android:textColor="@color/roxoEscuro" />
 
-		</LinearLayout>
+        </LinearLayout>
     </ScrollView>
 
     <Space
         android:layout_width="wrap_content"
-        android:layout_height="10dp" />
+        android:layout_height="20dp" />
 
     <LinearLayout
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:weightSum="2"
-        android:layout_gravity="center">
+        android:layout_gravity="center"
+        android:weightSum="2">
 
         <Button
+            android:id="@+id/btConcluidoCadastro"
             android:layout_width="250dp"
             android:layout_height="40dp"
             android:layout_gravity="center"
+            android:layout_weight="2"
             android:background="@drawable/button2"
-            android:text="Próximo"
-            android:textColor="@color/roxoEscuro"
-            android:alpha=".9"
-            android:id="@+id/btConcluidoCadastro"
             android:onClick="insertSiteP"
-            android:layout_weight="1"/>
+            android:text="Encerrar"
+            android:textColor="@color/roxoEscuro" />
     </LinearLayout>
 </LinearLayout>

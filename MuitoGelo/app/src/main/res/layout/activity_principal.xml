@@ -55,7 +55,7 @@
             android:layout_height="150dp"
             android:background="@drawable/button2"
             android:gravity="top"
-            android:onClick="irCadastroImovel"
+            android:onClick="irPremios"
             android:padding="15dp"
             android:text="Conheça os Prêmios"
             android:textAllCaps="false"
