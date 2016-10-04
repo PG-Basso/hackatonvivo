@@ -142,12 +142,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="10dp" />
 
-            <AutoCompleteTextView
+            <EditText
                 android:id="@+id/latitude"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/button2"
-                android:inputType="numberDecimal"
+                android:inputType="text"
                 android:paddingBottom="10dp"
                 android:paddingLeft="20dp"
                 android:paddingTop="10dp"
@@ -163,7 +163,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/button2"
-                android:inputType="numberDecimal"
+                android:inputType="text"
                 android:hint="Longitude"
                 android:paddingBottom="10dp"
                 android:paddingLeft="20dp"
@@ -180,7 +180,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/button2"
-                android:inputType="number"
+                android:inputType="text"
                 android:paddingBottom="10dp"
                 android:paddingLeft="20dp"
                 android:paddingTop="10dp"
@@ -201,20 +201,6 @@
         android:layout_gravity="center"
         android:padding="10dp">
 
-        <Button
-            android:layout_width="250dp"
-            android:layout_height="40dp"
-            android:layout_gravity="center"
-            android:background="@drawable/button2"
-            android:text="Voltar"
-            android:textColor="@color/roxoEscuro"
-            android:id="@+id/btVoltarCadastro"
-            android:onClick="voltar"
-            android:layout_weight="1"/>
-
-        <Space
-            android:layout_width="10dp"
-            android:layout_height="wrap_content" />
 
         <Button
             android:layout_width="250dp"
@@ -225,6 +211,6 @@
             android:textColor="@color/roxoEscuro"
             android:id="@+id/btConcluidoCadastro"
             android:onClick="insertSite"
-            android:layout_weight="1"/>
+            android:layout_weight="2"/>
     </LinearLayout>
 </LinearLayout>

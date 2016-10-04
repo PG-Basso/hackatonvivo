@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.AutoCompleteTextView;
+import android.widget.EditText;
 import android.widget.Toast;
 
 public class CadastroImovel1Activity extends AppCompatActivity {
@@ -19,9 +20,6 @@ public class CadastroImovel1Activity extends AppCompatActivity {
         setSupportActionBar(toolbar);
     }
 
-    public void voltar(View view) {
-        finish();
-    }
     public void insertSite(View view) {
         String type = ((AutoCompleteTextView)findViewById(R.id.type)).getText().toString();
         String address = ((AutoCompleteTextView)findViewById(R.id.address)).getText().toString();
@@ -29,10 +27,9 @@ public class CadastroImovel1Activity extends AppCompatActivity {
         String district = ((AutoCompleteTextView)findViewById(R.id.district)).getText().toString();
         String cep = ((AutoCompleteTextView)findViewById(R.id.cep)).getText().toString();
         String state = ((AutoCompleteTextView)findViewById(R.id.state)).getText().toString();
-        double latitude = Double.parseDouble(((AutoCompleteTextView)findViewById(R.id.latitude)).getText().toString());
+        double latitude = Double.parseDouble(((EditText)findViewById(R.id.latitude)).getText().toString());
         double longitude = Double.parseDouble(((AutoCompleteTextView)findViewById(R.id.longitude)).getText().toString());
         double altitude = Double.parseDouble(((AutoCompleteTextView)findViewById(R.id.altitude)).getText().toString());
-
         try {
             VivoDbDAO dao = new VivoDbDAO(this);
             dao.insertSite(
